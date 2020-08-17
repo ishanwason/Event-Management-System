@@ -1,0 +1,9 @@
+{
+    "development": {
+        "PORT": "2001",
+        "database": "EventManagement",
+        "username": "sa",
+        "password": "tftus@123",
+        "privateKey": "12345"
+    }
+}
