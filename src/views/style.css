@@ -1,0 +1,128 @@
+.full-page{
+    width:100vw;
+    height:100vh;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/33322030/thumb/1.jpg) ;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.full-page1{
+  width:100vw;
+  height:100vh;
+  /* background-color:lightgray; */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4DdgGLgLhP9qiHz4ENl4uFrNSWGLvhA5dNQ&usqp=CAU);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.full-page2{
+  width:100vw;
+  height: 100vh;
+  align-items: center;
+  padding: 5%;
+  /* justify-content: space-evenly; */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4DdgGLgLhP9qiHz4ENl4uFrNSWGLvhA5dNQ&usqp=CAU);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.half-page1{
+  width:45%;
+  /* height:70%; */
+}
+.half-page2{
+  width:45%;
+  height:82%;
+  /* max-height: 76%; */
+  overflow: auto;
+}
+.scroll{
+  max-height: 70%;
+  overflow: auto;
+}
+.modify{
+height:30px;
+width:250px;
+}
+.time-picker{
+  width:300px;
+  height:30px;
+}
+.time-picker-open{
+  width:300px;
+}
+/* .modify:hover,:focus{
+  border:0.5px solid black;
+  height:30px;
+} */
+.align-input{
+  width:85%;
+}
+.textarea-align{
+  /* width:45%; */
+  /* margin-right: 0.4cm; */
+  height:90px;
+  resize: none;
+}
+.react-switch {
+  vertical-align: middle;
+  margin-left: 58px;
+}
+
+.loader-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99999;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0
+  }
+  .community-loader {
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 99999;
+    justify-content: center;
+    top: 0;
+    padding: 20px 0;
+  }
+  .community-loader .loader {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .loader {
+    border: 4px solid #f8f7f7;
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 70px;
+    height: 70px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 1.5s linear infinite;
+    align-self: center;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}

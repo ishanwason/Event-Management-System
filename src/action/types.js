@@ -1,0 +1,13 @@
+export const LOGIN = 'LOGIN';
+export const SIGNUP = 'SIGNUP'
+export const USER_DETAILS = 'USER_DETAILS'
+export const GET_EVENTS = 'GET_EVENTS';
+export const SET_EVENTS = 'SET_EVENTS';
+export const ADD_EVENTS = 'ADD_EVENTS';
+export const START_FETCHING = 'START_FETCHING';
+export const END_FETCHING = 'END_FETCHING';
+export const SET_MESSAGE = 'SET_MESSAGE';
+export const REMOVE_MESSAGE = 'REMOVE_MESSAGE';
+export const SET_ERROR = 'SET_ERROR';
+export const REMOVE_ERROR = 'REMOVE_ERROR'
+export const LOGOUT = 'LOGOUT'

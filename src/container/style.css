@@ -1,0 +1,12 @@
+.dropdown{
+    outline: none;
+    border: none;
+    border:0px solid;
+}
+.dropdown:focus,:hover{
+    border:none;
+    outline: none;
+} 
+.hovered:hover{
+    background-color: hotpink;
+}  
